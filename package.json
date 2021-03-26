@@ -3,11 +3,19 @@
   "version": "0.0.1",
   "description": "Highly customizable functionality multiple choice question-based survey form builder with extensible UI with sub-modules.",
   "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "volta": {
+    "node": "14.15.4",
+    "yarn": "1.22.10"
+  },
   "repository": "https://github.com/Darwin97VA/survey-form.git",
   "author": "Darwin Stalin Vilcachagua Ayala <darwin97.va@gmail.com>",
   "license": "MIT",
-  "private": false,
   "dependencies": {
-    "esbuild": "^0.10.1"
+    "esbuild": "^0.10.1",
+    "lerna": "^4.0.0"
   }
 }
